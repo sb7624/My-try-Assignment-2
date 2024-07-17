@@ -1,3 +1,101 @@
-h1{
-    background-color: beige;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
+
+*{
+    margin: 0;
+}
+
+
+/* navbar style */
+.nav-bar{
+    height: 100px;
+    /* border: 2px solid pink; */
+    background-color: rgb(17, 17, 17);
+    
+}
+.whole-part{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.nav-title-part a{
+    text-decoration: none;
+}
+
+.nav-title-part a h3{
+    color: rgb(230, 83, 60);
+    font-size: 26px;
+    font-style: italic;
+}
+.nav-link-part{
+    display: flex;
+    border: 1px solid #222222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    /* border: 2px solid red; */
+    
+}
+.nav-title-part, .nav-link-part{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+} 
+
+
+
+.nav-link-part li{
+    list-style: none;
+    margin-right: 15px;
+}
+.nav-link-part a{
+    text-decoration: none;
+}
+
+.nav-link-part li a{
+    color: rgb(255, 255, 255);
+}
+
+.nav-link-part li .special{
+    border: 1px solid white;
+    /* padding: 8px; */
+    border-radius: 40px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(230, 83, 60);
+    margin-right: ;
+}
+
+.icon-part{
+    color: aliceblue;
+    display: none;
+}
+
+
+@media screen  and (max-width:576px) {
+    .icon-part{
+        color: aliceblue;
+        display: block;
+        margin-top: 20px;
+    }
+    .nav-link-part{
+        display: none;
+    }
+
+    
+}
+
+/* navpart done */
