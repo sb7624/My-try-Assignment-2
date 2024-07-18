@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
+
+
+.playwrite-cu-font {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -99,3 +108,97 @@
 }
 
 /* navpart done */
+
+/* banner part */
+
+.Image-section .box-1 .ball{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    
+}
+
+
+.banner{
+    /* height: 700px; */
+    border: 1px solid black;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.banner-whole-part{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 2px solid tomato; */
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding: 100px; */
+    
+    
+}
+
+.Content-section{
+    /* border: 2px solid black; */
+    max-width: 550px;
+    max-height: 100px;
+    margin-top: 50px;
+}
+
+.Content-section h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.Content-section h1 .jhamela{
+    font-style: italic;
+}
+
+.Image-section{
+    position: relative;
+}
+
+.Image-section .box{
+    position: absolute;
+}
+
+.Image-section img{
+    max-height: 500px;
+   /* border: 2px solid black; */
+   
+}
+
+.Image-section .box-1{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    
+    
+}
+
+.Image-section .box-1{
+    top: 20%;
+    left: 60%;
+}
+
+.Image-section .box-2{
+    bottom: 20%;
+    left: -15%;
+}
+
+.Image-section .box-2{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
