@@ -111,20 +111,38 @@
 
 /* banner part */
 
-.Image-section .box-1 .ball{
-    height: 20px;
-    width: 20px;
+.Image-section .box-2 .ball{
+    height: 35px;
+    width: 35px;
     background-color: red;
     border-radius: 50%;
+    
+    
     /* border: 2px solid black; */
     
+}
+
+.box .outside-ball .hudai-jhamela-two{
+    font-size: 7px;
+    line-height: em;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.box .hudai-jhamela{
+    font-size: 22px;
+    font-weight: 800;
+    color: #FFFFFF;
+    
+    margin-top: 25px;
+    /* border: 2px solid black; */
 }
 
 
 .banner{
     /* height: 700px; */
     border: 1px solid black;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: #111111;
 }
 
 .banner-whole-part{
@@ -150,19 +168,58 @@
 
 .Content-section h1{
     font-size: 70px;
-    font-weight: 900;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 6rem;
 }
 
 .Content-section h1 .jhamela{
     font-style: italic;
 }
 
+.Content-section .buttons{
+   
+    margin-top: 10px;
+   
+}
+
+.Content-section .buttons .join-button, .app-button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    padding: 2px 5px 2px 5px;
+    border-radius: 40px;
+    margin-top: 15px;
+}   
+
+.Content-section .buttons .join-button{
+    background-color: #E6533C;
+}
+
+.Content-section .buttons  .app-button{
+    background-color: #101010;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+.Content-section p{
+    color: #535353;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 25px;
+}
+
 .Image-section{
     position: relative;
+    margin-right: 40px;
 }
 
 .Image-section .box{
     position: absolute;
+}
+
+.Image-section .box-1 .outside-ball .h-j{
+    color: #FFFFFF;
+    font-size: 11px;
 }
 
 .Image-section img{
@@ -174,20 +231,17 @@
 .Image-section .box-1{
     border: 1px solid #FFFFFF;
     border-radius: 12px;
-    width: 40%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 5px;
-    
-    
+    width:40%;
+    height: 50px;
+    padding: 7px;
+    text-align: center; 
+    background: #393939;
+    backdrop-filter: blur(25px);
 }
 
 .Image-section .box-1{
     top: 20%;
-    left: 60%;
+    left: 55%;
 }
 
 .Image-section .box-2{
@@ -198,7 +252,39 @@
 .Image-section .box-2{
     border: 1px solid #FFFFFF;
     border-radius: 12px;
-    width: 40%;
-    padding: 10px;
-    text-align: center;
+    width: 50%;
+    background: #393939;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    gap: 8px;
+    
+}
+
+.Image-section .box-2 .hudai-jhamela-two{
+    font-size: 25px;
+    font-weight: 650;
+    text-align: left;
+
+    /* border: 2px solid black; */
+}
+
+.Image-section .box-2 .outside-ball{
+    /* border: 2px solid black; */
+    
+}
+
+.Image-section .hudai-jhamela-three{
+    /* border: 1px solid white; */
+    font-size: 12px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+@media screen  and (max-width:576px) {
+   
+
+    
 }
