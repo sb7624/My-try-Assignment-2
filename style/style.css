@@ -22,6 +22,7 @@
 
 *{
     margin: 0;
+    background-color: #000;
 }
 
 
@@ -104,21 +105,20 @@
         display: none;
     }
 
-    
 }
+
+
 
 /* navpart done */
 
 /* banner part */
 
-.Image-section .box-2 .ball{
+.banner-whole-part .Image-section .box-2 .ball{
     height: 35px;
     width: 35px;
     background-color: red;
     border-radius: 50%;
-    
-    
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
     
 }
 
@@ -235,7 +235,7 @@
     height: 50px;
     padding: 7px;
     text-align: center; 
-    background: #393939;
+    background: #232323;
     backdrop-filter: blur(25px);
 }
 
@@ -253,7 +253,8 @@
     border: 1px solid #FFFFFF;
     border-radius: 12px;
     width: 50%;
-    background: #393939;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
     
     display: flex;
     justify-content: center;
@@ -288,3 +289,201 @@
 
     
 }
+
+
+/* banner section done */
+
+
+/* change yor habit section */
+
+
+.habit-section{
+    background-color: #000000;
+}
+
+.content-part{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-part{
+    /* border: 2px solid blue; */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(4, 200px) ;
+    gap: 50px;
+}
+
+.image-part .image-one, .image-two, .image-three, .image-four{
+    /* border: 3px solid antiquewhite; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image-part .same-style{
+    /* border: 2px solid red; */
+    width: 100%;
+    border-radius: 50%;
+}
+
+.content-part{
+    background-color: #000000;
+}
+
+.content-part h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.content-part p{
+    font-size: 13px;
+    color: #535353;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.image-part .image-one h6{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.image-part .image-one p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    
+}
+
+.image-part .image-two h6{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.image-part .image-two p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    
+}
+
+.image-part .image-three h6{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.image-part .image-three p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    
+}
+
+.image-part .image-four h6{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.image-part .image-four p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    
+    
+}
+
+/* habit section done */
+
+/* run part */
+
+
+.run-part{
+    background: rgb(0, 0, 0);
+    margin-top: 150px;
+
+}
+.whole-div .img-div img{
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 14px;
+    background-color: #232323;
+}
+
+
+.whole-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: #232323;
+    border-radius: 12px;
+    /* background-color: #232323; */
+    /* justify-content: space-around; */
+    /* align-items: center;
+    justify-content: space-between; */
+    /* width: 80%;
+    margin: 0 auto;
+    gap: 10px; */
+}
+
+.content-section{
+    /* border: 2px solid bisque; */
+    background-color: #232323;
+    margin-left: 10px;
+    
+}
+
+.content-section h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    background-color: #232323;
+}
+
+.content-section p{
+    font-size: 13px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #232323;
+}
+
+.content-section .btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    padding: 2px 5px 2px 5px;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    margin-top: 30px;
+}
+
