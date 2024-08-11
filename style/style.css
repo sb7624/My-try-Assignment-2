@@ -650,6 +650,18 @@
     color: #FFFFFF;
 }
 
+.heading-part h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.heading-part p{
+    color: #534F4E;
+    margin-top: 8px;
+    line-height: 1.3rem;
+    font-size: 13px;
+}
+
 .dhakkadhakki{
   margin-top: 10px;  
     
