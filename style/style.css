@@ -286,9 +286,29 @@
 }
 
 @media screen  and (max-width:576px) {
-   
+    .banner-whole-part{
+        display: flex;
+        flex-direction: column;
+        height: 950px;
+    }
 
-    
+    .Content-section{
+        width: 90%;
+        margin: 0 auto;
+        position: static;
+    }
+    .Content-section .buttons{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .Image-section{
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        margin-right: -2px;
+        top: 2px;
+    }
 }
 
 
@@ -419,6 +439,18 @@
     
 }
 
+@media screen  and (max-width:576px) {
+    .habit-section .content-part h1,p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .habit-section .image-part{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* habit section done */
 
 /* run part */
@@ -484,6 +516,14 @@
     border-radius: 40px;
     background: rgb(230, 83, 60);
     margin-top: 30px;
+}
+
+@media screen  and (max-width:576px) {
+    .whole-div{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 
