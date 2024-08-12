@@ -286,20 +286,24 @@
 }
 
 @media screen  and (max-width:576px) {
+    .banner{
+        
+    }
     .banner-whole-part{
         display: flex;
         flex-direction: column;
-        height: 950px;
+        height: 1000px;
     }
 
     .Content-section{
         width: 90%;
         margin: 0 auto;
         position: static;
+        text-align: center;
     }
-    .Content-section .buttons{
-        width: 90%;
-        margin: 0 auto;
+    .Content-section .buttons .join-button, .app-button{
+        width: 100%;
+        
     }
 
     .Image-section{
@@ -307,7 +311,11 @@
         width: 80%;
         margin: 0 auto;
         margin-right: -2px;
-        top: 2px;
+       
+    }
+
+    .Image-section .box{
+        bottom: 00px;
     }
 }
 
