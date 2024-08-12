@@ -292,7 +292,7 @@
     .banner-whole-part{
         display: flex;
         flex-direction: column;
-        height: 1000px;
+        height: 1200px;
     }
 
     .Content-section{
@@ -311,7 +311,7 @@
         width: 80%;
         margin: 0 auto;
         margin-right: 15px;
-       
+        top: 20px;
     }
 
     .Image-section .box{
@@ -452,6 +452,10 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    /* .habit-section{
+        margin-top: 400px;
+    } */
 
     .habit-section .image-part{
         display: flex;
