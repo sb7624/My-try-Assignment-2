@@ -536,7 +536,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 600px;
+        height: 500px;
         width: 100% ;
     }
 
@@ -690,6 +690,64 @@
 }
 
 
+@media screen  and (max-width:576px){
+    .BMI-section{
+        display: grid;
+       
+    } 
+
+    .title{
+        
+    }
+
+    .upper-part{
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    .upper-part h1,p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .BMIs-sides{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .BMIs-sides .left-side h1{
+        text-align: center;
+    }
+    .left-side{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .right-side{
+        width: 50%;
+        margin: 0 auto;
+        ;
+    }
+
+    .BMIs-sides .right-side h1,p{
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .form-container #factor{
+        width: 128%;
+    }
+
+    .BMIs-sides .btn{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
+
+
 /* BMI-section done */
 
 .meet-part{
@@ -761,6 +819,24 @@
     font-weight: 400;
 }
 
+
+@media screen  and (max-width:576px){
+    .meet-part{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        height: 1600px;
+    }
+    .img-part{
+        display: flex;
+        flex-direction: column;
+        /* background-color: #1A1A1A; */
+        /* border: 2px solid white; */
+        height: 1400px;
+        padding-left: 55px;
+    }
+}
+
 /* meet part done */
 
 
@@ -817,6 +893,28 @@
     color: #ffffff;
     font-weight: 500;
     font-size: 20px;
+}
+
+@media screen  and (max-width:576px){
+    .final-part{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .final-part .Left-part h1, p{
+        text-align: center;
+    }
+
+    .final-part .Left-part p{
+        font-size: 10px;
+    }
+
+    .right-part{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
