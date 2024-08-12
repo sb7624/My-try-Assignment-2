@@ -302,7 +302,7 @@
         text-align: center;
     }
     .Content-section .buttons .join-button, .app-button{
-        width: 100%;
+    
         
     }
 
@@ -534,8 +534,32 @@
     .whole-div{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        width: 100% ;
+    }
+
+    .whole-div .content-section h1{
+        text-align: center;
+    }
+
+    .whole-div .content-section p{
+        font-size: 9px;
+        text-align: center;
     }
     
+    .whole-div .content-section .btn{
+        /* border: 2px solid white; */
+        width: 90%;
+        margin-left: 9px;
+    }
+
+    .whole-div .img-div img{
+        width: 90%;
+        height: 200px;
+        margin-left: 20px;
+    }
 }
 
 
