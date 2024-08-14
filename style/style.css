@@ -758,8 +758,14 @@
 
     .upper-part{
         /* border: 2px solid white; */
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
+        height: 150px;
+        
+    }
+
+    .upper-part h1{
+        margin-top: 20px;
     }
 
     .upper-part p{
@@ -768,6 +774,7 @@
         margin: 0 auto;
         text-align: left;
         margin-left: 0px;
+        
     }
 
 
@@ -788,7 +795,7 @@
 
     .BMIs-sides .left-side{
         /* border: 2px solid tomato; */
-        width: 73%;
+        width: 65%;
         margin: 0 auto;
         margin-top: 30px;
     }
@@ -801,7 +808,7 @@
         margin: 0 auto;
     } */
     .right-side{
-        width: 73%;
+        width: 65%;
         margin: 0 auto;
         /* border: 2px solid tomato; */
         margin-bottom: 100px;
@@ -814,7 +821,7 @@
         /* border: 2px solid white; */
         width: 80%;
         text-align: left;
-        font-size: 15.5px;
+        font-size: 13px;
     }
 
     .form-container #factor{
@@ -826,11 +833,25 @@
         /* border: 2px solid white; */
         display: flex;
         gap: 10px;
+
+    }
+
+    .form-container .input #main-input{
+        width: 100%;
     }
 
     .form-container .second-part{
         display: flex;
         gap: 10px;
+    }
+
+    .form-container .second-part  #gender{
+        width: 50%;
+        /* border: 2px solid white; */
+    }
+    .form-container .second-part  .second-input{
+        width: 44%;
+        /* border: 2px solid white; */
     }
 
     .BMIs-sides .btn{
