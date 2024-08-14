@@ -292,7 +292,7 @@
     .banner-whole-part{
         display: flex;
         flex-direction: column;
-        height: 1200px;
+        height: 1100px;
     }
 
     .Content-section{
@@ -448,19 +448,60 @@
 }
 
 @media screen  and (max-width:576px) {
-    .habit-section .content-part h1,p{
+
+    .habit-section .content-part{
+        /* border: 2px solid white; */
         width: 80%;
         margin: 0 auto;
+        
     }
 
-    /* .habit-section{
-        margin-top: 400px;
-    } */
+    .habit-section .content-part h1{
+        /* border: 2px solid tomato; */
+
+    }
+    .habit-section .content-part p{
+        /* border: 2px solid yellowgreen; */
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+    }
+    
 
     .habit-section .image-part{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid wheat; */
     }
+
+    .habit-section .image-part .img h6{
+        text-align: center;
+        /* border: 2px solid tomato; */
+        font-size: 15px;
+        font-weight: 650;
+        letter-spacing: 0.05rem;
+        margin-top: 7px;
+    }
+    .habit-section .image-part .img p{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: 0 auto;  
+        font-size: 12.5px;  
+        letter-spacing: 0.09rem;   
+    }
+
+
+
+    .habit-section .image-part .img{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 2px solid white; */
+    }
+    
 }
 
 /* habit section done */
@@ -536,31 +577,46 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 500px;
-        width: 100% ;
+        height: 600px;
+        width: 80% ;
+        margin: 0 auto;
+        margin-top: 30px ;
+        /* border: 2px solid tomato; */
+    }
+
+    .whole-div .content-section{
+        /* border: 2px solid blue; */
+        width: 90%;
+        margin: 0 auto;
     }
 
     .whole-div .content-section h1{
-        text-align: center;
+        /* border: 2px solid white; */
+        margin-bottom: 30px;
+        width: 100%;
     }
 
     .whole-div .content-section p{
-        font-size: 9px;
-        text-align: center;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 0 auto;
     }
-    
+ 
     .whole-div .content-section .btn{
-        /* border: 2px solid white; */
+        width: 100%;
+    }
+
+    .whole-div .img-div {
+        /* border: 2px solid whitesmoke; */
         width: 90%;
-        margin-left: 9px;
     }
 
     .whole-div .img-div img{
-        width: 90%;
-        height: 200px;
-        margin-left: 20px;
+        width: 100%;
+        height: 240px;
+       /* border: 2px solid red; */
     }
-}
+} 
 
 
 
@@ -692,58 +748,93 @@
 
 @media screen  and (max-width:576px){
     .BMI-section{
-        display: grid;
-       
+        /* border: 2px solid white; */
+        width: 100%;
     } 
 
-    .title{
-        
-    }
+    
+
+    
 
     .upper-part{
-        width: 70%;
+        /* border: 2px solid white; */
+        width: 80%;
         margin: 0 auto;
-        
     }
-    .upper-part h1,p{
+
+    .upper-part p{
+        /* border: 2px solid red; */
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    /* .upper-part h1,p{
         text-align: center;
         margin-bottom: 20px;
-    }
+    } */
 
     .BMIs-sides{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 2px solid blue; */
     }
 
-    .BMIs-sides .left-side h1{
+    .BMIs-sides .left-side{
+        /* border: 2px solid tomato; */
+        width: 73%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    /* .BMIs-sides .left-side h1{
         text-align: center;
     }
     .left-side{
         width: 50%;
         margin: 0 auto;
-    }
+    } */
     .right-side{
-        width: 50%;
+        width: 73%;
         margin: 0 auto;
-        ;
+        /* border: 2px solid tomato; */
+        margin-bottom: 100px;
     }
 
-    .BMIs-sides .right-side h1,p{
-        text-align: center;
-        margin-left: 50px;
+    .BMIs-sides .right-side h1{
+        text-align: left;
+    }
+    .BMIs-sides .right-side p{
+        /* border: 2px solid white; */
+        width: 80%;
+        text-align: left;
+        font-size: 15.5px;
     }
 
     .form-container #factor{
-        width: 128%;
+        width: 100%;
+        
+    }
+
+    .form-container .input{
+        /* border: 2px solid white; */
+        display: flex;
+        gap: 10px;
+    }
+
+    .form-container .second-part{
+        display: flex;
+        gap: 10px;
     }
 
     .BMIs-sides .btn{
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-left: 50px;
+        width: 60%;
     }
 }
 
@@ -821,19 +912,49 @@
 
 
 @media screen  and (max-width:576px){
+
+    .heading-part{
+        /* border: 2px solid wheat; */
+        width: 80%;
+        text-align: center;
+    }
     .meet-part{
+        /* border: 2px solid white; */
         display: flex;
         flex-direction:column;
         align-items: center;
         height: 1600px;
     }
     .img-part{
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         /* background-color: #1A1A1A; */
         /* border: 2px solid white; */
         height: 1400px;
-        padding-left: 55px;
+        
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .img-part .dhakkadhakki{
+        /* border: 2px solid tomato; */
+        width: 60%;
+        margin: 0 auto;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .img-part .dhakkadhakki img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-part .dhakkadhakki .mem-data p{
+        /* border: 2px solid white; */
+        width: 20%;
+        text-align: left;
     }
 }
 
@@ -901,10 +1022,9 @@
         flex-direction: column;
         
     }
+    .fin
 
-    .final-part .Left-part h1, p{
-        text-align: center;
-    }
+    
 
     .final-part .Left-part p{
         font-size: 10px;
