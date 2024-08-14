@@ -1056,6 +1056,15 @@
         flex-direction: column;
     }
 
+    .final-part .right-part ul li a{
+        
+        /* border: 2px solid red; */
+        font-size: 15px;
+    }
+    .final-part .right-part ul li{
+        margin-top: 15px;
+    }
+
 }
 
 
